@@ -4,6 +4,19 @@ This is a simple iFrame window that allows you to construct a dynamic URL to an 
 
 ## Jedox Know How for passing variables
 
+When using a report hyperlink in an external application, you can extend the hyperlink with settings for variables in the Jedox report, allowing you to pass information (e.g. “point of view” settings) from the external environment to the report.
+A variable is addressed in a hyperlink by appending a parameter to the url in the form: 
+
+
+**<report_link>&var/<variable_name>=<variable_value>**
+
+
+For example, to pass this value 2015 to the variable @year, the following string needs to be appended: …&var/year=2015
+It is possible to set values for multiple variables as well. Each further variable is simply appended with similar syntax.
+
+Furthermore, you can also define multiple values for a single variable (in reports, the value type of this variable will then be an array), using the following syntax:
+
+**…&var/year[]=2015&var/year[]=2016&var/year[]=2017…**
 
 
 <br>
