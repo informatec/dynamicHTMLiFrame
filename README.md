@@ -20,7 +20,7 @@ Furthermore, you can also define multiple values for a single variable (in repor
 
 
 <br>
-<img src="https://github.com/informatec/qsJedox/blob/master/img/1.gif">
+<img src="https://github.com/informatec/dynamicHTMLiFrame/blob/master/img/1.gif">
 <br>
 
 ## Sample for passing url
