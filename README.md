@@ -23,6 +23,9 @@ Furthermore, you can also define multiple values for a single variable (in repor
 <img src="https://github.com/informatec/qsJedox/blob/master/img/1.gif">
 <br>
 
+## Sample for passing url
+
+**='http://localhost/ui/lnk/?_=eJxNj8EKwjAMh...' & '&var/BUD_YEAR=' & only(DISTINCT BudYear)**
 
 <h3>Points to note</h3>
 <ul><li>You need to understand how to construct the dynamic string for the URL, see example application included with <b> $(..) </b>  sections where the dynamic content is added </li>
