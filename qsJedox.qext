@@ -1,0 +1,9 @@
+{
+	"name" : "qsJedox HTML iFrame",
+	"description" : "qsJedox Integration via IFrame which passes over variables by url",
+	"icon" : "extension",
+	"type" : "visualization",
+	"version": "1.0",
+	"preview" : "bar",
+	"author": "Philipp Frenzel"
+}
